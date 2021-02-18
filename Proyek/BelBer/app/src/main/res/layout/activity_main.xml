@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="@dimen/ukuran"
+        android:layout_marginLeft="@dimen/jarak"
+        />
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/judul"
+        android:layout_toRightOf="@+id/im1"
+        android:text="@string/mari"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/judul"
+        />
+
+    <TextView
+        android:id="@+id/teks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/judul"
+        android:layout_toRightOf="@+id/im1"
+        android:layout_below="@+id/teks2"
+        android:text="@string/Belajar"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:onClick="showCategories"
+        android:id="@+id/categoriesButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/kategori2"
+        android:background="@drawable/circle"
+        android:textColor="@color/black"
+        android:layout_below="@id/teks3"
+        android:layout_marginTop="@dimen/jarak"
+        android:layout_marginLeft="@dimen/ukuran"
+        />
+
+
+    <Button
+        android:onClick="tryout"
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/tryout"
+        android:background="@drawable/circle"
+        android:layout_toRightOf="@id/categoriesButton"
+        android:textColor="@color/black"
+        android:layout_below="@id/teks3"
+        android:layout_marginTop="@dimen/jarak"
+        android:layout_marginLeft="@dimen/ukuran"
+        />
+
+    <Button
+        android:onClick="showScores"
+        android:id="@+id/scoresButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/grafik"
+        android:background="@drawable/circle"
+        android:textColor="@color/black"
+        android:layout_below="@id/categoriesButton"
+        android:layout_marginTop="@dimen/jarak4"
+        android:layout_marginLeft="@dimen/ukuran"
+        />
+
+    <Button
+        android:onClick="rating"
+        android:id="@+id/rating"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Rating"
+        android:background="@drawable/circle"
+        android:layout_toRightOf="@id/scoresButton"
+        android:textColor="@color/black"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="@dimen/jarak4"
+        android:layout_marginLeft="@dimen/ukuran"
+        />
+
+    <Button
+        android:onClick="petunjuk"
+        android:id="@+id/btn4"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/petunjuk"
+        android:background="@drawable/circle"
+        android:textColor="@color/black"
+        android:layout_below="@id/rating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="@dimen/ukuran"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:background="@drawable/circle"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/categoriesButton"-->
+    <!--            style="@style/StandardButton"-->
+    <!--            android:onClick="showCategories"-->
+    <!--            android:text="@string/new_round_label" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/scoresButton"-->
+    <!--            style="@style/StandardButton"-->
+    <!--            android:onClick="showScores"-->
+    <!--            android:text="@string/high_scores_label" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/rating"-->
+    <!--            style="@style/StandardButton"-->
+    <!--            android:onClick="rating"-->
+    <!--            android:text="@string/nilai_aplikasi" />-->
+
+
+
+
+</RelativeLayout>

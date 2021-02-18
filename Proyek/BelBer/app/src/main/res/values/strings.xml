@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">BelBer</string>
+
+
+    <string name="prefLoginState">loginstate</string>
+    <string name="categories">Kategori</string>
+    <string name="scores">Nilai Tertinggi</string>
+
+    <string name="new_round_label">Main</string>
+    <string name="high_scores_label">Nilai Tertinggi</string>
+    <string name="options_label">Pengaturan</string>
+    <string name="main_menu_label">Menu Utama</string>
+    <string name="share_score_label">Bagikan</string>
+
+    <string name="play_sounds">Suara</string>
+
+    <string name="question">Pertanyaan</string>
+
+    <string name="next_question">Selanjutnya</string>
+
+    <string name="content_desc_logo">Space Trivia logo</string>
+
+    <string name="complete_round">Selesai</string>
+    <string name="round_summary">Hasil</string>
+
+    <string name="answered">Benar</string>
+    <string name="of">dari</string>
+    <string name="questions_correctly">pertanyaan.</string>
+
+    <string name="no_questions_answered">Belum ada jawaban.</string>
+
+    <string name="share_score_part_1">Ane dapat</string>
+    <string name="share_score_part_2">point di kategori</string>
+    <string name="share_score_part_3">Kuis Piala Dunia 2014</string>
+
+    <string name="share_via">Bagikan lewat</string>
+    <string name="nilai_aplikasi">Nilai Aplikasi</string>
+
+    <!--Baru-->
+
+    <string name="validasi">Jawaban benar</string>
+    <string name="level">Pilih level soal</string>
+    <string name="kategori">Pilih kategori soal</string>
+    <string name="kategori2">Kategori Soal</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="saintek">Saintek</string>
+    <string name="soshum">Soshum</string>
+    <string name="mari">Mari</string>
+    <string name="Belajar">Belajar</string>
+    <string name="tryout">Try Out</string>
+    <string name="grafik">Grafik Nilai</string>
+    <string name="petunjuk">Petunjuk</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+
+    <string name="register">Register Form</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="swipe_left_for_register">0</string>
+    <string name="registers">Register</string>
+
+    <string name="username">Username</string>
+    <string name="judul">LoginForm</string>
+    <string name="tags">Silahkan Login Terlebih Dahulu</string>
+    <string name="tagss">Belum Punya akun?</string>
+    <string name="tagsss">Daftar Disini!</string>
+    <string name="juduls">RegisterForm</string>
+    <string name="bindo">Bahasa Indonesia</string>
+    <string name="bing">Bahasa Inggris</string>
+    <string name="petunjuks">Terdapat 10 pertanyaan disetiap level\n\nSetiap level memiliki tingkat kesulitan yang berbeda\n\nSoal terdiri dari pilihan berganda\n\nWaktu pengerjaan soal adalah 30 menit\n\nJika sudah selesai dapat dilihat hasilnya di skor nilai.</string>
+    <string name="ranking">Ranking try out</string>
+    <string name="hasil">Selamat!! </string>
+
+</resources>

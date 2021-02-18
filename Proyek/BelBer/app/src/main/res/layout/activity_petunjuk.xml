@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".Petunjuk">
+
+    <ImageView
+        android:id="@+id/senyum"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/petunjuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/senyum"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="4dp"
+
+        android:text="Petunjuk"
+        android:textColor="#fff"
+        android:textSize="45dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_notification"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/petunjuk"
+        card_view:cardCornerRadius="10dp"
+        card_view:contentPadding="7dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="417dp"
+            android:layout_height="350dp"
+            android:background="@drawable/circle"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+
+            <TextView
+                android:id="@+id/teks11"
+                android:layout_width="336dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+
+                android:paddingLeft="@dimen/ukuran"
+                android:text="@string/petunjuks"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="336dp"
+                android:layout_height="290dp"
+                android:layout_marginTop="15dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/good"
+                android:layout_width="36dp"
+                android:layout_height="67dp"
+                android:layout_below="@id/teks11"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/ic_sentiment_satisfied_black_24dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/teks11"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:text="G"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/teks11"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="14dp"
+                android:text="D"
+                android:textColor="#000"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Luck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/teks11"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="14dp"
+                android:text="Luck!"
+                android:textColor="#000"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/good2"
+                android:layout_width="36dp"
+                android:layout_height="67dp"
+                android:layout_below="@id/teks11"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/ic_sentiment_satisfied_black_24dp"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ukuran">25dp</dimen>
+    <dimen name="judul">35dp</dimen>
+    <dimen name="jarak">80dp</dimen>
+    <dimen name="tengah">20dp</dimen>
+    <dimen name="jarak2">18dp</dimen>
+    <dimen name="jarak3">50dp</dimen>
+    <dimen name="jarak4">70dp</dimen>
+</resources>
